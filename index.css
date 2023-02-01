@@ -1,0 +1,56 @@
+.modal-content {
+    background-image: linear-gradient(to right, #da72d8, #ec9c83);
+    color: whitesmoke;
+}
+
+label {
+    margin-top: 10px;
+    margin-bottom: 0px;
+    font-weight: 200;
+}
+
+input[type=text],
+[type=email],
+[type=password] {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid rgb(212, 195, 195);
+    width: 100%;
+
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #F9E090;
+    padding: 10px;
+    color: black;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border: none;
+}
+
+.social {
+    color: black;
+    font-size: 10px;
+    padding: 10px;
+    width: 49%;
+    border: none;
+}
+
+.modal-content {
+    padding: 20px;
+}
+
+.vl {
+    border-left: 1px solid rgb(212, 195, 195);
+    height: 400px;
+}
+
+.txt {
+    display: flex;
+    justify-content: space-between;
+}
+
+p {
+    margin: 10px 0px 10px;
+}
